@@ -38,10 +38,11 @@
             // 
             // buttonReadFile
             // 
+            this.buttonReadFile.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonReadFile.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonReadFile.Location = new System.Drawing.Point(1039, 27);
+            this.buttonReadFile.Location = new System.Drawing.Point(898, 27);
             this.buttonReadFile.Name = "buttonReadFile";
-            this.buttonReadFile.Size = new System.Drawing.Size(265, 39);
+            this.buttonReadFile.Size = new System.Drawing.Size(251, 39);
             this.buttonReadFile.TabIndex = 1;
             this.buttonReadFile.Text = "Открыть файл";
             this.buttonReadFile.UseVisualStyleBackColor = true;
@@ -49,11 +50,14 @@
             // 
             // textBoxContent
             // 
+            this.textBoxContent.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.textBoxContent.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxContent.Location = new System.Drawing.Point(37, 97);
             this.textBoxContent.Name = "textBoxContent";
             this.textBoxContent.ReadOnly = true;
-            this.textBoxContent.Size = new System.Drawing.Size(1267, 605);
+            this.textBoxContent.Size = new System.Drawing.Size(1112, 605);
             this.textBoxContent.TabIndex = 2;
             this.textBoxContent.Text = "";
             // 
@@ -78,9 +82,10 @@
             // 
             // buttonCancel
             // 
+            this.buttonCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonCancel.Enabled = false;
             this.buttonCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonCancel.Location = new System.Drawing.Point(748, 27);
+            this.buttonCancel.Location = new System.Drawing.Point(622, 27);
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(270, 39);
             this.buttonCancel.TabIndex = 5;
@@ -90,6 +95,8 @@
             // 
             // label
             // 
+            this.label.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label.AutoSize = true;
             this.label.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label.Location = new System.Drawing.Point(31, 30);
@@ -102,15 +109,16 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1337, 739);
+            this.ClientSize = new System.Drawing.Size(1184, 739);
             this.Controls.Add(this.label);
             this.Controls.Add(this.buttonCancel);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.buttonFindOffset);
             this.Controls.Add(this.textBoxContent);
             this.Controls.Add(this.buttonReadFile);
+            this.MinimumSize = new System.Drawing.Size(1202, 786);
             this.Name = "MainForm";
-            this.Text = "MainForm";
+            this.Text = "BinaryViewer";
             this.ResumeLayout(false);
             this.PerformLayout();
 
